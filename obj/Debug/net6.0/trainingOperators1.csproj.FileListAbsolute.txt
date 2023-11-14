@@ -1,0 +1,14 @@
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\bin\Debug\net6.0\trainingOperators1.exe
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\bin\Debug\net6.0\trainingOperators1.deps.json
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\bin\Debug\net6.0\trainingOperators1.runtimeconfig.json
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\bin\Debug\net6.0\trainingOperators1.dll
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\bin\Debug\net6.0\trainingOperators1.pdb
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.AssemblyInfoInputs.cache
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.AssemblyInfo.cs
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.csproj.CoreCompileInputs.cache
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.dll
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\refint\trainingOperators1.dll
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.pdb
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\trainingOperators1.genruntimeconfig.cache
+C:\Users\IlGringo\Desktop\AiCademy\booleanOperators\booleanOperators\obj\Debug\net6.0\ref\trainingOperators1.dll

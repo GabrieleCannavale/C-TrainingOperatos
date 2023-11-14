@@ -12,7 +12,7 @@ namespace trainingOperators
         {
             bool a = true;
             bool b = false;
-
+            //operazioni con i booleani
             //log come stringa semplice
             WriteLine($"AND  | a     | b    ");
 
@@ -34,11 +34,11 @@ namespace trainingOperators
 
 
 
-            //operazioni con i booleani
+            
             WriteLine("inserisci un Nome");
             string Nome = ReadLine();
 
-            //if per verificare se NOME è vuoto
+            //condizionale if per verificare se NOME è vuoto
             if (ContieneValore(Nome))
             {
                 WriteLine($"il nome è {Nome}");
@@ -52,30 +52,77 @@ namespace trainingOperators
 
 
 
+            
+            int giornoDellaSettimana;
+            Write("inserisci il numero del giorno della settimana:");
+            var appoggio = ReadLine();
 
-            int giornoDellaSettimana = 3;
+            if (int.TryParse(appoggio, out giornoDellaSettimana) && 
+                (giornoDellaSettimana <8 & giornoDellaSettimana >1))
+            {//condizionale SWITCH CASE
+                switch (giornoDellaSettimana)
+                {
+                    case 1:
+                        Console.WriteLine("Monday");
+                        break;
 
-            switch (giornoDellaSettimana)
+                    case 2:
+                        Console.WriteLine("Tuesday");
+                        break;
+
+
+                    case 3:
+                        Console.WriteLine("Wednesday");
+                        break;
+
+
+                    default:
+                        Console.WriteLine("Looking forward to the Weekend.");
+                        break;
+
+                }
+                WriteLine($"Il giorno selezionato è {giornoDellaSettimana}");
+            } else { WriteLine("DEVI INSERIRE UN NUMERO FRA 1 E 7"); };
+
+
+            //ARRAY: Cosa sono e cicli applicati->>
+            string[] names; // can reference any array of strings
+
+            // allocating memory for four strings in an array
+            names = new string[5];
+
+            // storing items at index positions
+            names[0] = "Kate";
+            names[1] = "Jack";
+            names[2] = "Rebecca";
+            names[3] = "Tom";
+            names[4] = "Darth Vader";
+
+
+            //Richiedere nuovo Nome
+            //Conrollare nuovo nome
+
+            //Ingrandire la Collection/Array
+            //Array.Resize<string>(ref names, names.Length + 1);
+
+            //Inserire nuovo vaore
+
+
+            // looping through the names
+            for (int i = 0; i < names.Length; i++)
             {
-                case 1:
-                    Console.WriteLine("Monday");
-                    break;
-
-                case 2:
-                    Console.WriteLine("Tuesday");
-                    break;
-
-
-                case 3:
-                    Console.WriteLine("Wednesday");
-                    break;
-
-
-                default:
-                    Console.WriteLine("Looking forward to the Weekend.");
-                    break;
-
+                // output the item at index position i
+                Console.WriteLine(names[i]);
             }
+
+            int index = 0;
+            foreach (string item in names)
+            {
+                index++;
+                Console.WriteLine(item);
+            }
+
+
         }
     }
 }

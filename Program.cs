@@ -1,8 +1,8 @@
 ﻿using System;
 using static System.Console;
-using static booleanOperators.Utils;
+using static trainingOperators.Utils;
 
-namespace booleanOperators
+namespace trainingOperators
 {
     public class Program
     {
@@ -38,6 +38,7 @@ namespace booleanOperators
             WriteLine("inserisci un Nome");
             string Nome = ReadLine();
 
+            //if per verificare se NOME è vuoto
             if (ContieneValore(Nome))
             {
                 WriteLine($"il nome è {Nome}");
@@ -50,6 +51,31 @@ namespace booleanOperators
             WriteLine($"Nome && DoStuff() = {ContieneValore(Nome) && DoStuff()}");
 
 
+
+
+            int giornoDellaSettimana = 3;
+
+            switch (giornoDellaSettimana)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+
+
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+
+
+                default:
+                    Console.WriteLine("Looking forward to the Weekend.");
+                    break;
+
+            }
         }
     }
 }

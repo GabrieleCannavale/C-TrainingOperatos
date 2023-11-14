@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IlGringo\\Desktop\\AiCademy\\booleanOperators\\booleanOperators\\booleanOperators.csproj",
-      "projectName": "booleanOperators",
-      "projectPath": "C:\\Users\\IlGringo\\Desktop\\AiCademy\\booleanOperators\\booleanOperators\\booleanOperators.csproj",
+      "projectUniqueName": "C:\\Users\\IlGringo\\Desktop\\AiCademy\\booleanOperators\\booleanOperators\\trainingOperators1.csproj",
+      "projectName": "trainingOperators1",
+      "projectPath": "C:\\Users\\IlGringo\\Desktop\\AiCademy\\booleanOperators\\booleanOperators\\trainingOperators1.csproj",
       "packagesPath": "C:\\Users\\IlGringo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IlGringo\\Desktop\\AiCademy\\booleanOperators\\booleanOperators\\obj\\",
       "projectStyle": "PackageReference",

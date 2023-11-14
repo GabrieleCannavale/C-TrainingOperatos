@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace booleanOperators
+namespace trainingOperators
 {
     public class Utils
     {

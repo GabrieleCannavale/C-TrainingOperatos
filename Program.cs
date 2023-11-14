@@ -122,7 +122,22 @@ namespace trainingOperators
                 Console.WriteLine(item);
             }
 
+            List<string> mList = new List<string>();
 
+            mList.Add("Pino");
+            mList.Add("Peppe");
+            mList.Add("Tony");
+            mList.Add("Simone");
+
+            mList.Remove("Pino");
+            mList.RemoveAt(mList.IndexOf("Pino"));
+            int mList numberOfItems = mList.Count();
+            //questi sopra sono solo alcuni metodi,ce n'è uno per ogni esigenza, PROVLAI TUTTI!
+            
+            foreach (string item in mList)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
